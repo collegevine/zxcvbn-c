@@ -16,7 +16,7 @@ Description:
  .
  An article on the reasons for zxcvbn is at
  https://tech.dropox.com/2012/04/zxcvbn-realistic-password-strength-estimation
-Extra-Source-Files: README.md README.md test.c words-female.txt zxcvbn.h dict-generate.cpp testcases.txt words-male.txt words-10k-pass.txt words-surname.txt makefile words-english.txt zxcvbn.c
+Extra-Source-Files: words-female.txt zxcvbn.h dict-generate.cpp words-male.txt words-10k-pass.txt words-surname.txt makefile words-english.txt zxcvbn.c
 
 Library
   Build-Depends: base (>= 4.5 && < 5.0)
