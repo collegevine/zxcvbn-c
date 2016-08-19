@@ -12,10 +12,10 @@ Category: System
 Synopsis: Password strength estimation
 Description:
  This is a Haskell binding to the C port of the zxcvbn
- password strength estimator, from https://github.com/tsyrogit/zxcvbn-c
+ password strength estimator, from <https://github.com/tsyrogit/zxcvbn-c>
  .
  An article on the reasons for zxcvbn is at
- https://tech.dropox.com/2012/04/zxcvbn-realistic-password-strength-estimation
+ <https://tech.dropox.com/2012/04/zxcvbn-realistic-password-strength-estimation>
 Extra-Source-Files: words-female.txt zxcvbn.h dict-generate.cpp words-male.txt words-10k-pass.txt words-surname.txt makefile words-english.txt zxcvbn.c
 
 Library
