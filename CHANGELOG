@@ -1,0 +1,11 @@
+zxcvbn-c (1.0.1) unstable; urgency=medium
+
+  * Added use-shared-lib build flag.
+
+ -- Joey Hess <id@joeyh.name>  Sun, 25 Sep 2016 14:29:42 -0400
+
+zxcvbn-c (1.0.0) unstable; urgency=medium
+
+  * First release.
+
+ -- Joey Hess <id@joeyh.name>  Fri, 19 Aug 2016 19:41:06 -0400
