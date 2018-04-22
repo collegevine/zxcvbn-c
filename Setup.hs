@@ -2,7 +2,7 @@
 
 import Distribution.Simple
 import Distribution.Simple.Setup
-import System.Cmd
+import System.Process
 
 main = defaultMainWithHooks simpleUserHooks
 	{ preConf = buildCLib
