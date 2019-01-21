@@ -38,10 +38,11 @@ Library
   GHC-Options: -Wall -fno-warn-tabs
   Extensions: ForeignFunctionInterface
   Include-Dirs: .
-  if flag(use-shared-lib)
-    Extra-Libraries: zxcvbn
-  else
-    C-Sources: zxcvbn.c zxcvbn.h
+  if !os(windows)
+    if flag(use-shared-lib)
+      Extra-Libraries: zxcvbn
+    else
+      C-Sources: zxcvbn.c zxcvbn.h
 
 source-repository head
   type: git
