@@ -21,7 +21,7 @@ type UserDict = [String]
 #ifdef mingw32_HOST_OS
 
 estimate :: Password -> UserDict -> Entropy
-estimate _ _ = 0
+estimate _ _ = 100
 
 #else
 
